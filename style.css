@@ -1,0 +1,47 @@
+body {
+    background-color: #f9efdc;
+    font-size: 15px; /* Tamaño de letra más pequeño */
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.image-profile {
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    border: 5px solid rgb(97, 39, 39);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile-description {
+    border: 2px solid #8B4513; /* Borde de 2px en color café */
+    background-color: #F5DEB3; 
+    padding: 20px; /* Espacio interno de 20px */
+    text-align: center; /* Centrar el texto dentro de la tarjeta */
+    margin: 20px auto; 
+    max-width: 600px; /* Establecer el ancho máximo de la tarjeta */
+}
+
+ul li{
+    list-style: none; 
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+/* El valor auto en el margen horizontal (margin-left y margin-right) hace que el espacio restante se distribuya equitativamente a ambos lados del elemento, lo que logra el efecto de centrado horizontal.*/
